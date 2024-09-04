@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <main>
+     <img src="—Pngtree—vector management icon_4165515.png" alt="logo">
+     <h1>Entrar no Gestão Fácil</h1>
+     <p class="linha">______________________________________________________________________</p>
+     <form action="cadastro.php">
+         <article>
+             <h3>Digite seu email</h3>
+             <label for="email"></label>
+             <input type="email" name="email" id="email" placeholder="Email" class="caixa" required pattern="^[a-zA-Z0-9._:$!%]+@[a-zA-Z0-9.-]+.[a-zA-Z]$" >
+         
+             <h3>Digite sua senha</h3>
+             <label for="senha"></label>
+             <input type="password" name="senha" id="senha" placeholder="Senha" class="caixa" required minlength="8" maxlength="15" > <br>
+         
+             <div id="lembrar">
+                 <div class="container" id="lembrar">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"> </span>
+                    </label>
+                </div>
+                <p>Lembre-se de mim</p>
+             </div>
+         
+         
+         
+             <button type="submit">Entrar</button> <br>
+         </article>
+     </form>
+     <a href="#" id="esqueceu" class="link">Esqueceu a senha?</a> 
+     <p class="linha">______________________________________________________________________</p> 
+     
+     <p class="link">Não tem uma conta? <a href="#" class="link">Registrar-se</a></p>
+ </main>
+    
+</body>
+</html>
