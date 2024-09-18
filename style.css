@@ -33,7 +33,7 @@
 
     .caixa{
         margin-top: 20px;
-        width: 100px;
+        width: 10px;
         height: 40px;
     }
 
@@ -43,6 +43,23 @@
         padding: 10px;
     }
 
+    .alertaConta{
+        padding: 10px;
+        padding-left: 35px;
+        width: 102%;
+        font-size: 15px;
+       
+    }
+    
+
+    .info > i {
+        position: relative;
+        left: -45%;
+        margin-left: -6px;
+
+        
+        
+    }
 
   
 }
@@ -83,6 +100,20 @@
     img{
         padding-top: 20px;
     }
+
+    .alertaConta{
+        padding: 10px;
+        padding-left: 35px;
+        width: 83%;
+    }
+    
+
+    .info > i {
+        position: relative;
+        left: -39%;
+        margin-left: -6px;
+        
+    }
     
 }
 
@@ -121,7 +152,47 @@
     img{
         padding-top: 20px;
     }
+
+    .alertaConta{
+        padding: 10px;
+        padding-left: 35px;
+        width: 83%;
+    }
+    
+
+    .info > i {
+        position: relative;
+        left: -39%;
+        margin-left: -6px;
+        
+    }
 }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.material-symbols-outlined-info {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
 
 :root{
     --fonte-padrao: Roboto, sans-serif;
@@ -146,6 +217,7 @@ text-align: center;
 font-family: var(--fonte-padrao);
 font-weight:normal;
 color: var(--cor2); 
+margin-bottom: 20px;
 
 }
 
@@ -191,7 +263,7 @@ form {
 
 h3{
     text-align: left;
-    padding-top: 20px;
+    padding-top: 0px;
     color: #867B7B ;
     font-family: var(--fonte-padrao);
     font-weight: normal;
@@ -199,7 +271,9 @@ h3{
 }
 
 .caixa{
-    margin-top: 20px;
+   
+    margin-top: 0px;
+    margin-bottom: 20px;
     width: 419px;
     height: 40px;
    text-align: center;
@@ -207,6 +281,52 @@ h3{
     border: none;
     box-shadow: 0px 3px 4px 2px  #7979798b ;
     color:var(--cor1);
+   
+      
+}
+
+.alerta{
+    font-family: var(--fonte-padrao);
+    color: red;
+    display: none;
+
+}
+
+
+
+.alertaConta{
+    font-family: var(--fonte-padrao);
+    color: white;
+    background-color: #CB0000;
+    border-radius: 5px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 15px;
+    display: none;
+
+}
+
+.erro{
+
+    border: 1px solid red;
+
+}
+
+
+
+i {
+    position: relative;
+    left: -44%;
+    transform: translateY(157%);
+    color: var(--cor1);
+}
+
+.info > i {
+    position: relative;
+    transform: translateY(155%);
+    color: white;
+    display: none;
+  
 }
 
 input:focus{
@@ -235,8 +355,9 @@ button:hover {
 /* botão switch*/
 
 #lembrar{
-display:flexbox;
+    display:flexbox;
 }
+
 
 ::placeholder {
     font-size: 1em;
